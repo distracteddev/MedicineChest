@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0EDB83A14606E3E004095EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB83914606E3E004095EF /* UIKit.framework */; };
+		C0EDB83C14606E3E004095EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB83B14606E3E004095EF /* Foundation.framework */; };
+		C0EDB83E14606E3E004095EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB83D14606E3E004095EF /* CoreGraphics.framework */; };
+		C0EDB84414606E3E004095EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0EDB84214606E3E004095EF /* InfoPlist.strings */; };
+		C0EDB84614606E3E004095EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EDB84514606E3E004095EF /* main.m */; };
+		C0EDB84A14606E3E004095EF /* MedicineChestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EDB84914606E3E004095EF /* MedicineChestAppDelegate.m */; };
+		C0EDB84D14606E3E004095EF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0EDB84B14606E3E004095EF /* MainWindow.xib */; };
+		C0EDB85514606E3E004095EF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB85414606E3E004095EF /* SenTestingKit.framework */; };
+		C0EDB85614606E3E004095EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB83914606E3E004095EF /* UIKit.framework */; };
+		C0EDB85714606E3E004095EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB83B14606E3E004095EF /* Foundation.framework */; };
+		C0EDB85814606E3E004095EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB83D14606E3E004095EF /* CoreGraphics.framework */; };
+		C0EDB86014606E3E004095EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0EDB85E14606E3E004095EF /* InfoPlist.strings */; };
+		C0EDB86214606E3E004095EF /* MedicineChestTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C0EDB86114606E3E004095EF /* MedicineChestTests.h */; };
+		C0EDB86414606E3E004095EF /* MedicineChestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EDB86314606E3E004095EF /* MedicineChestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0EDB85914606E3E004095EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0EDB82C14606E3E004095EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0EDB83414606E3E004095EF;
+			remoteInfo = MedicineChest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0EDB83514606E3E004095EF /* MedicineChest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicineChest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EDB83914606E3E004095EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C0EDB83B14606E3E004095EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0EDB83D14606E3E004095EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0EDB84114606E3E004095EF /* MedicineChest-Info.plist */ = {isa = PBXFileReference; path = "MedicineChest-Info.plist"; sourceTree = "<group>"; };
+		C0EDB84314606E3E004095EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0EDB84514606E3E004095EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0EDB84714606E3E004095EF /* MedicineChest-Prefix.pch */ = {isa = PBXFileReference; path = "MedicineChest-Prefix.pch"; sourceTree = "<group>"; };
+		C0EDB84814606E3E004095EF /* MedicineChestAppDelegate.h */ = {isa = PBXFileReference; path = MedicineChestAppDelegate.h; sourceTree = "<group>"; };
+		C0EDB84914606E3E004095EF /* MedicineChestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicineChestAppDelegate.m; sourceTree = "<group>"; };
+		C0EDB84C14606E3E004095EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C0EDB85314606E3E004095EF /* MedicineChestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicineChestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EDB85414606E3E004095EF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C0EDB85D14606E3E004095EF /* MedicineChestTests-Info.plist */ = {isa = PBXFileReference; path = "MedicineChestTests-Info.plist"; sourceTree = "<group>"; };
+		C0EDB85F14606E3E004095EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0EDB86114606E3E004095EF /* MedicineChestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedicineChestTests.h; sourceTree = "<group>"; };
+		C0EDB86314606E3E004095EF /* MedicineChestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicineChestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0EDB83214606E3E004095EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EDB83A14606E3E004095EF /* UIKit.framework in Frameworks */,
+				C0EDB83C14606E3E004095EF /* Foundation.framework in Frameworks */,
+				C0EDB83E14606E3E004095EF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EDB84F14606E3E004095EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EDB85514606E3E004095EF /* SenTestingKit.framework in Frameworks */,
+				C0EDB85614606E3E004095EF /* UIKit.framework in Frameworks */,
+				C0EDB85714606E3E004095EF /* Foundation.framework in Frameworks */,
+				C0EDB85814606E3E004095EF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0EDB82A14606E3E004095EF = {
+			isa = PBXGroup;
+			children = (
+				C0EDB83F14606E3E004095EF /* MedicineChest */,
+				C0EDB85B14606E3E004095EF /* MedicineChestTests */,
+				C0EDB83814606E3E004095EF /* Frameworks */,
+				C0EDB83614606E3E004095EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0EDB83614606E3E004095EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0EDB83514606E3E004095EF /* MedicineChest.app */,
+				C0EDB85314606E3E004095EF /* MedicineChestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0EDB83814606E3E004095EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0EDB83914606E3E004095EF /* UIKit.framework */,
+				C0EDB83B14606E3E004095EF /* Foundation.framework */,
+				C0EDB83D14606E3E004095EF /* CoreGraphics.framework */,
+				C0EDB85414606E3E004095EF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0EDB83F14606E3E004095EF /* MedicineChest */ = {
+			isa = PBXGroup;
+			children = (
+				C0EDB84814606E3E004095EF /* MedicineChestAppDelegate.h */,
+				C0EDB84914606E3E004095EF /* MedicineChestAppDelegate.m */,
+				C0EDB84B14606E3E004095EF /* MainWindow.xib */,
+				C0EDB84014606E3E004095EF /* Supporting Files */,
+			);
+			path = MedicineChest;
+			sourceTree = "<group>";
+		};
+		C0EDB84014606E3E004095EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0EDB84114606E3E004095EF /* MedicineChest-Info.plist */,
+				C0EDB84214606E3E004095EF /* InfoPlist.strings */,
+				C0EDB84514606E3E004095EF /* main.m */,
+				C0EDB84714606E3E004095EF /* MedicineChest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0EDB85B14606E3E004095EF /* MedicineChestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0EDB86114606E3E004095EF /* MedicineChestTests.h */,
+				C0EDB86314606E3E004095EF /* MedicineChestTests.m */,
+				C0EDB85C14606E3E004095EF /* Supporting Files */,
+			);
+			path = MedicineChestTests;
+			sourceTree = "<group>";
+		};
+		C0EDB85C14606E3E004095EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0EDB85D14606E3E004095EF /* MedicineChestTests-Info.plist */,
+				C0EDB85E14606E3E004095EF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0EDB83414606E3E004095EF /* MedicineChest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0EDB86714606E3E004095EF /* Build configuration list for PBXNativeTarget "MedicineChest" */;
+			buildPhases = (
+				C0EDB83114606E3E004095EF /* Sources */,
+				C0EDB83214606E3E004095EF /* Frameworks */,
+				C0EDB83314606E3E004095EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicineChest;
+			productName = MedicineChest;
+			productReference = C0EDB83514606E3E004095EF /* MedicineChest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0EDB85214606E3E004095EF /* MedicineChestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0EDB86A14606E3E004095EF /* Build configuration list for PBXNativeTarget "MedicineChestTests" */;
+			buildPhases = (
+				C0EDB84E14606E3E004095EF /* Sources */,
+				C0EDB84F14606E3E004095EF /* Frameworks */,
+				C0EDB85014606E3E004095EF /* Resources */,
+				C0EDB85114606E3E004095EF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0EDB85A14606E3E004095EF /* PBXTargetDependency */,
+			);
+			name = MedicineChestTests;
+			productName = MedicineChestTests;
+			productReference = C0EDB85314606E3E004095EF /* MedicineChestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0EDB82C14606E3E004095EF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C0EDB82F14606E3E004095EF /* Build configuration list for PBXProject "MedicineChest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0EDB82A14606E3E004095EF;
+			productRefGroup = C0EDB83614606E3E004095EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0EDB83414606E3E004095EF /* MedicineChest */,
+				C0EDB85214606E3E004095EF /* MedicineChestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0EDB83314606E3E004095EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EDB84414606E3E004095EF /* InfoPlist.strings in Resources */,
+				C0EDB84D14606E3E004095EF /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EDB85014606E3E004095EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EDB86014606E3E004095EF /* InfoPlist.strings in Resources */,
+				C0EDB86214606E3E004095EF /* MedicineChestTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0EDB85114606E3E004095EF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0EDB83114606E3E004095EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EDB84614606E3E004095EF /* main.m in Sources */,
+				C0EDB84A14606E3E004095EF /* MedicineChestAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EDB84E14606E3E004095EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EDB86414606E3E004095EF /* MedicineChestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0EDB85A14606E3E004095EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0EDB83414606E3E004095EF /* MedicineChest */;
+			targetProxy = C0EDB85914606E3E004095EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0EDB84214606E3E004095EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0EDB84314606E3E004095EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0EDB84B14606E3E004095EF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0EDB84C14606E3E004095EF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C0EDB85E14606E3E004095EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0EDB85F14606E3E004095EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0EDB86514606E3E004095EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0EDB86614606E3E004095EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0EDB86814606E3E004095EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedicineChest/MedicineChest-Prefix.pch";
+				INFOPLIST_FILE = "MedicineChest/MedicineChest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0EDB86914606E3E004095EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedicineChest/MedicineChest-Prefix.pch";
+				INFOPLIST_FILE = "MedicineChest/MedicineChest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C0EDB86B14606E3E004095EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MedicineChest.app/MedicineChest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedicineChest/MedicineChest-Prefix.pch";
+				INFOPLIST_FILE = "MedicineChestTests/MedicineChestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C0EDB86C14606E3E004095EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MedicineChest.app/MedicineChest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedicineChest/MedicineChest-Prefix.pch";
+				INFOPLIST_FILE = "MedicineChestTests/MedicineChestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0EDB82F14606E3E004095EF /* Build configuration list for PBXProject "MedicineChest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EDB86514606E3E004095EF /* Debug */,
+				C0EDB86614606E3E004095EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0EDB86714606E3E004095EF /* Build configuration list for PBXNativeTarget "MedicineChest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EDB86814606E3E004095EF /* Debug */,
+				C0EDB86914606E3E004095EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0EDB86A14606E3E004095EF /* Build configuration list for PBXNativeTarget "MedicineChestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EDB86B14606E3E004095EF /* Debug */,
+				C0EDB86C14606E3E004095EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0EDB82C14606E3E004095EF /* Project object */;
+}
