@@ -148,29 +148,53 @@
 		C0EDB8EB1461DC38004095EF /* MedicineChest */ = {
 			isa = PBXGroup;
 			children = (
+				C0EDB9171461E2E7004095EF /* Images */,
+				C0EDB9181461E2F9004095EF /* ViewControllers */,
+				C0EDB8F21461DC38004095EF /* InfoPlist.strings */,
+				C0EDB8F41461DC38004095EF /* MainWindow.xib */,
+				C0EDB8F81461DC38004095EF /* main.m */,
+				C0EDB8F91461DC38004095EF /* MedicineChest-Info.plist */,
+				C0EDB8FA1461DC38004095EF /* MedicineChest-Prefix.pch */,
+				C0EDB8FB1461DC38004095EF /* MedicineChestAppDelegate.h */,
+				C0EDB8FC1461DC38004095EF /* MedicineChestAppDelegate.m */,
+				C0EDB9191461E304004095EF /* Models */,
+			);
+			path = MedicineChest;
+			sourceTree = "<group>";
+		};
+		C0EDB9171461E2E7004095EF /* Images */ = {
+			isa = PBXGroup;
+			children = (
 				C0EDB8EC1461DC38004095EF /* 10-medical.png */,
 				C0EDB8ED1461DC38004095EF /* 190-bank.png */,
 				C0EDB8EE1461DC38004095EF /* 83-calendar.png */,
 				C0EDB8EF1461DC38004095EF /* 94-pill.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C0EDB9181461E2F9004095EF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
 				C0EDB8F01461DC38004095EF /* CalViewController.h */,
 				C0EDB8F11461DC38004095EF /* CalViewController.m */,
-				C0EDB8F21461DC38004095EF /* InfoPlist.strings */,
-				C0EDB8F41461DC38004095EF /* MainWindow.xib */,
 				C0EDB90B1461DCB2004095EF /* HomeViewController.h */,
 				C0EDB90C1461DCB2004095EF /* HomeViewController.m */,
 				C0EDB90D1461DCB2004095EF /* PillboxViewController.h */,
 				C0EDB90E1461DCB2004095EF /* PillboxViewController.m */,
 				C0EDB8F61461DC38004095EF /* InfoViewController.h */,
 				C0EDB8F71461DC38004095EF /* InfoViewController.m */,
-				C0EDB8F81461DC38004095EF /* main.m */,
-				C0EDB8F91461DC38004095EF /* MedicineChest-Info.plist */,
-				C0EDB8FA1461DC38004095EF /* MedicineChest-Prefix.pch */,
-				C0EDB8FB1461DC38004095EF /* MedicineChestAppDelegate.h */,
-				C0EDB8FC1461DC38004095EF /* MedicineChestAppDelegate.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C0EDB9191461E304004095EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
 				C0EDB8FD1461DC38004095EF /* Prescription.h */,
 				C0EDB8FE1461DC38004095EF /* Prescription.m */,
 			);
-			path = MedicineChest;
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
