@@ -10,17 +10,25 @@
 		C0EDB83A14606E3E004095EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB83914606E3E004095EF /* UIKit.framework */; };
 		C0EDB83C14606E3E004095EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB83B14606E3E004095EF /* Foundation.framework */; };
 		C0EDB83E14606E3E004095EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB83D14606E3E004095EF /* CoreGraphics.framework */; };
-		C0EDB84414606E3E004095EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0EDB84214606E3E004095EF /* InfoPlist.strings */; };
-		C0EDB84614606E3E004095EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EDB84514606E3E004095EF /* main.m */; };
-		C0EDB84A14606E3E004095EF /* MedicineChestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EDB84914606E3E004095EF /* MedicineChestAppDelegate.m */; };
-		C0EDB84D14606E3E004095EF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0EDB84B14606E3E004095EF /* MainWindow.xib */; };
 		C0EDB85514606E3E004095EF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB85414606E3E004095EF /* SenTestingKit.framework */; };
 		C0EDB85614606E3E004095EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB83914606E3E004095EF /* UIKit.framework */; };
 		C0EDB85714606E3E004095EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB83B14606E3E004095EF /* Foundation.framework */; };
 		C0EDB85814606E3E004095EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB83D14606E3E004095EF /* CoreGraphics.framework */; };
 		C0EDB86014606E3E004095EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0EDB85E14606E3E004095EF /* InfoPlist.strings */; };
-		C0EDB86214606E3E004095EF /* MedicineChestTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C0EDB86114606E3E004095EF /* MedicineChestTests.h */; };
-		C0EDB86414606E3E004095EF /* MedicineChestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EDB86314606E3E004095EF /* MedicineChestTests.m */; };
+		C0EDB8FF1461DC38004095EF /* 10-medical.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EDB8EC1461DC38004095EF /* 10-medical.png */; };
+		C0EDB9001461DC38004095EF /* 190-bank.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EDB8ED1461DC38004095EF /* 190-bank.png */; };
+		C0EDB9011461DC38004095EF /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EDB8EE1461DC38004095EF /* 83-calendar.png */; };
+		C0EDB9021461DC38004095EF /* 94-pill.png in Resources */ = {isa = PBXBuildFile; fileRef = C0EDB8EF1461DC38004095EF /* 94-pill.png */; };
+		C0EDB9031461DC38004095EF /* CalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EDB8F11461DC38004095EF /* CalViewController.m */; };
+		C0EDB9041461DC38004095EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0EDB8F21461DC38004095EF /* InfoPlist.strings */; };
+		C0EDB9051461DC38004095EF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0EDB8F41461DC38004095EF /* MainWindow.xib */; };
+		C0EDB9061461DC38004095EF /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EDB8F71461DC38004095EF /* InfoViewController.m */; };
+		C0EDB9071461DC38004095EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EDB8F81461DC38004095EF /* main.m */; };
+		C0EDB9081461DC38004095EF /* MedicineChest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0EDB8F91461DC38004095EF /* MedicineChest-Info.plist */; };
+		C0EDB9091461DC38004095EF /* MedicineChestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EDB8FC1461DC38004095EF /* MedicineChestAppDelegate.m */; };
+		C0EDB90A1461DC38004095EF /* Prescription.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EDB8FE1461DC38004095EF /* Prescription.m */; };
+		C0EDB90F1461DCB2004095EF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EDB90C1461DCB2004095EF /* HomeViewController.m */; };
+		C0EDB9101461DCB2004095EF /* PillboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EDB90E1461DCB2004095EF /* PillboxViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,19 +46,31 @@
 		C0EDB83914606E3E004095EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C0EDB83B14606E3E004095EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C0EDB83D14606E3E004095EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C0EDB84114606E3E004095EF /* MedicineChest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedicineChest-Info.plist"; sourceTree = "<group>"; };
-		C0EDB84314606E3E004095EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C0EDB84514606E3E004095EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C0EDB84714606E3E004095EF /* MedicineChest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MedicineChest-Prefix.pch"; sourceTree = "<group>"; };
-		C0EDB84814606E3E004095EF /* MedicineChestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedicineChestAppDelegate.h; sourceTree = "<group>"; };
-		C0EDB84914606E3E004095EF /* MedicineChestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicineChestAppDelegate.m; sourceTree = "<group>"; };
-		C0EDB84C14606E3E004095EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		C0EDB85314606E3E004095EF /* MedicineChestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicineChestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EDB85414606E3E004095EF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C0EDB85D14606E3E004095EF /* MedicineChestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedicineChestTests-Info.plist"; sourceTree = "<group>"; };
 		C0EDB85F14606E3E004095EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C0EDB86114606E3E004095EF /* MedicineChestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedicineChestTests.h; sourceTree = "<group>"; };
-		C0EDB86314606E3E004095EF /* MedicineChestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicineChestTests.m; sourceTree = "<group>"; };
+		C0EDB8EC1461DC38004095EF /* 10-medical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-medical.png"; sourceTree = "<group>"; };
+		C0EDB8ED1461DC38004095EF /* 190-bank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "190-bank.png"; sourceTree = "<group>"; };
+		C0EDB8EE1461DC38004095EF /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar.png"; sourceTree = "<group>"; };
+		C0EDB8EF1461DC38004095EF /* 94-pill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "94-pill.png"; sourceTree = "<group>"; };
+		C0EDB8F01461DC38004095EF /* CalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalViewController.h; sourceTree = "<group>"; };
+		C0EDB8F11461DC38004095EF /* CalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalViewController.m; sourceTree = "<group>"; };
+		C0EDB8F31461DC38004095EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0EDB8F51461DC38004095EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C0EDB8F61461DC38004095EF /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		C0EDB8F71461DC38004095EF /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		C0EDB8F81461DC38004095EF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0EDB8F91461DC38004095EF /* MedicineChest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MedicineChest-Info.plist"; sourceTree = "<group>"; };
+		C0EDB8FA1461DC38004095EF /* MedicineChest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MedicineChest-Prefix.pch"; sourceTree = "<group>"; };
+		C0EDB8FB1461DC38004095EF /* MedicineChestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineChestAppDelegate.h; sourceTree = "<group>"; };
+		C0EDB8FC1461DC38004095EF /* MedicineChestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineChestAppDelegate.m; sourceTree = "<group>"; };
+		C0EDB8FD1461DC38004095EF /* Prescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prescription.h; sourceTree = "<group>"; };
+		C0EDB8FE1461DC38004095EF /* Prescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prescription.m; sourceTree = "<group>"; };
+		C0EDB90B1461DCB2004095EF /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C0EDB90C1461DCB2004095EF /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C0EDB90D1461DCB2004095EF /* PillboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PillboxViewController.h; sourceTree = "<group>"; };
+		C0EDB90E1461DCB2004095EF /* PillboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PillboxViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +101,7 @@
 		C0EDB82A14606E3E004095EF = {
 			isa = PBXGroup;
 			children = (
-				C0EDB83F14606E3E004095EF /* MedicineChest */,
+				C0EDB8EB1461DC38004095EF /* MedicineChest */,
 				C0EDB85B14606E3E004095EF /* MedicineChestTests */,
 				C0EDB83814606E3E004095EF /* Frameworks */,
 				C0EDB83614606E3E004095EF /* Products */,
@@ -108,33 +128,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C0EDB83F14606E3E004095EF /* MedicineChest */ = {
-			isa = PBXGroup;
-			children = (
-				C0EDB84814606E3E004095EF /* MedicineChestAppDelegate.h */,
-				C0EDB84914606E3E004095EF /* MedicineChestAppDelegate.m */,
-				C0EDB84B14606E3E004095EF /* MainWindow.xib */,
-				C0EDB84014606E3E004095EF /* Supporting Files */,
-			);
-			path = MedicineChest;
-			sourceTree = "<group>";
-		};
-		C0EDB84014606E3E004095EF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C0EDB84114606E3E004095EF /* MedicineChest-Info.plist */,
-				C0EDB84214606E3E004095EF /* InfoPlist.strings */,
-				C0EDB84514606E3E004095EF /* main.m */,
-				C0EDB84714606E3E004095EF /* MedicineChest-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		C0EDB85B14606E3E004095EF /* MedicineChestTests */ = {
 			isa = PBXGroup;
 			children = (
-				C0EDB86114606E3E004095EF /* MedicineChestTests.h */,
-				C0EDB86314606E3E004095EF /* MedicineChestTests.m */,
 				C0EDB85C14606E3E004095EF /* Supporting Files */,
 			);
 			path = MedicineChestTests;
@@ -147,6 +143,34 @@
 				C0EDB85E14606E3E004095EF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0EDB8EB1461DC38004095EF /* MedicineChest */ = {
+			isa = PBXGroup;
+			children = (
+				C0EDB8EC1461DC38004095EF /* 10-medical.png */,
+				C0EDB8ED1461DC38004095EF /* 190-bank.png */,
+				C0EDB8EE1461DC38004095EF /* 83-calendar.png */,
+				C0EDB8EF1461DC38004095EF /* 94-pill.png */,
+				C0EDB8F01461DC38004095EF /* CalViewController.h */,
+				C0EDB8F11461DC38004095EF /* CalViewController.m */,
+				C0EDB8F21461DC38004095EF /* InfoPlist.strings */,
+				C0EDB8F41461DC38004095EF /* MainWindow.xib */,
+				C0EDB90B1461DCB2004095EF /* HomeViewController.h */,
+				C0EDB90C1461DCB2004095EF /* HomeViewController.m */,
+				C0EDB90D1461DCB2004095EF /* PillboxViewController.h */,
+				C0EDB90E1461DCB2004095EF /* PillboxViewController.m */,
+				C0EDB8F61461DC38004095EF /* InfoViewController.h */,
+				C0EDB8F71461DC38004095EF /* InfoViewController.m */,
+				C0EDB8F81461DC38004095EF /* main.m */,
+				C0EDB8F91461DC38004095EF /* MedicineChest-Info.plist */,
+				C0EDB8FA1461DC38004095EF /* MedicineChest-Prefix.pch */,
+				C0EDB8FB1461DC38004095EF /* MedicineChestAppDelegate.h */,
+				C0EDB8FC1461DC38004095EF /* MedicineChestAppDelegate.m */,
+				C0EDB8FD1461DC38004095EF /* Prescription.h */,
+				C0EDB8FE1461DC38004095EF /* Prescription.m */,
+			);
+			path = MedicineChest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,8 +240,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0EDB84414606E3E004095EF /* InfoPlist.strings in Resources */,
-				C0EDB84D14606E3E004095EF /* MainWindow.xib in Resources */,
+				C0EDB8FF1461DC38004095EF /* 10-medical.png in Resources */,
+				C0EDB9001461DC38004095EF /* 190-bank.png in Resources */,
+				C0EDB9011461DC38004095EF /* 83-calendar.png in Resources */,
+				C0EDB9021461DC38004095EF /* 94-pill.png in Resources */,
+				C0EDB9041461DC38004095EF /* InfoPlist.strings in Resources */,
+				C0EDB9051461DC38004095EF /* MainWindow.xib in Resources */,
+				C0EDB9081461DC38004095EF /* MedicineChest-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +255,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0EDB86014606E3E004095EF /* InfoPlist.strings in Resources */,
-				C0EDB86214606E3E004095EF /* MedicineChestTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,8 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0EDB84614606E3E004095EF /* main.m in Sources */,
-				C0EDB84A14606E3E004095EF /* MedicineChestAppDelegate.m in Sources */,
+				C0EDB9031461DC38004095EF /* CalViewController.m in Sources */,
+				C0EDB9061461DC38004095EF /* InfoViewController.m in Sources */,
+				C0EDB9071461DC38004095EF /* main.m in Sources */,
+				C0EDB9091461DC38004095EF /* MedicineChestAppDelegate.m in Sources */,
+				C0EDB90A1461DC38004095EF /* Prescription.m in Sources */,
+				C0EDB90F1461DCB2004095EF /* HomeViewController.m in Sources */,
+				C0EDB9101461DCB2004095EF /* PillboxViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0EDB86414606E3E004095EF /* MedicineChestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,28 +309,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C0EDB84214606E3E004095EF /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0EDB84314606E3E004095EF /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C0EDB84B14606E3E004095EF /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0EDB84C14606E3E004095EF /* en */,
-			);
-			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
 		C0EDB85E14606E3E004095EF /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C0EDB85F14606E3E004095EF /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0EDB8F21461DC38004095EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0EDB8F31461DC38004095EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0EDB8F41461DC38004095EF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0EDB8F51461DC38004095EF /* en */,
+			);
+			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

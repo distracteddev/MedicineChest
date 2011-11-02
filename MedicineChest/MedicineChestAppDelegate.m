@@ -7,6 +7,10 @@
 //
 
 #import "MedicineChestAppDelegate.h"
+#import "HomeViewController.h"
+#import "PillboxViewController.h"
+#import "InfoViewController.h"
+#import "CalViewController.h"
 
 @implementation MedicineChestAppDelegate
 
@@ -15,6 +19,33 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    UITabBarController *tbc = [[UITabBarController alloc] init];
+    
+    // Create the 4 view controllers, 1 for each tab
+    UIViewController *vc1 = [[HomeViewController alloc] init];
+    UIViewController *vc2 = [[PillboxViewController alloc] init];
+    UIViewController *vc3 = [[CalViewController alloc] init];
+    UITableViewController *vc4 = [[InfoViewController alloc] init];
+    
+    
+    // Make an array containing the two view controllers
+    NSArray *viewControllers = [NSArray arrayWithObjects:vc1, vc2, vc3, vc4, nil];
+
+    // Release the vc's
+    [vc1 release];
+    [vc2 release];
+    [vc3 release];
+    [vc4 release];
+    
+    // Attach the view Controllers to the tabBarController (tbc)
+    [tbc setViewControllers:viewControllers];
+    
+    // Set up an array of test presription objects 
+    
+    
+    [[self window] setRootViewController:tbc];
+    [tbc release];
     [self.window makeKeyAndVisible];
     return YES;
 }
