@@ -38,16 +38,16 @@
 		C0EDB83914606E3E004095EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C0EDB83B14606E3E004095EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C0EDB83D14606E3E004095EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C0EDB84114606E3E004095EF /* MedicineChest-Info.plist */ = {isa = PBXFileReference; path = "MedicineChest-Info.plist"; sourceTree = "<group>"; };
+		C0EDB84114606E3E004095EF /* MedicineChest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedicineChest-Info.plist"; sourceTree = "<group>"; };
 		C0EDB84314606E3E004095EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0EDB84514606E3E004095EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C0EDB84714606E3E004095EF /* MedicineChest-Prefix.pch */ = {isa = PBXFileReference; path = "MedicineChest-Prefix.pch"; sourceTree = "<group>"; };
-		C0EDB84814606E3E004095EF /* MedicineChestAppDelegate.h */ = {isa = PBXFileReference; path = MedicineChestAppDelegate.h; sourceTree = "<group>"; };
+		C0EDB84714606E3E004095EF /* MedicineChest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MedicineChest-Prefix.pch"; sourceTree = "<group>"; };
+		C0EDB84814606E3E004095EF /* MedicineChestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedicineChestAppDelegate.h; sourceTree = "<group>"; };
 		C0EDB84914606E3E004095EF /* MedicineChestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicineChestAppDelegate.m; sourceTree = "<group>"; };
 		C0EDB84C14606E3E004095EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		C0EDB85314606E3E004095EF /* MedicineChestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicineChestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EDB85414606E3E004095EF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C0EDB85D14606E3E004095EF /* MedicineChestTests-Info.plist */ = {isa = PBXFileReference; path = "MedicineChestTests-Info.plist"; sourceTree = "<group>"; };
+		C0EDB85D14606E3E004095EF /* MedicineChestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedicineChestTests-Info.plist"; sourceTree = "<group>"; };
 		C0EDB85F14606E3E004095EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0EDB86114606E3E004095EF /* MedicineChestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedicineChestTests.h; sourceTree = "<group>"; };
 		C0EDB86314606E3E004095EF /* MedicineChestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicineChestTests.m; sourceTree = "<group>"; };
@@ -422,6 +422,7 @@
 				C0EDB86914606E3E004095EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0EDB86A14606E3E004095EF /* Build configuration list for PBXNativeTarget "MedicineChestTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +431,7 @@
 				C0EDB86C14606E3E004095EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
