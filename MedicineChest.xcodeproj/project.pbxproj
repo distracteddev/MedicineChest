@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C07A78FA1462109B00185F69 /* PrescriptionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C07A78F91462109B00185F69 /* PrescriptionStore.m */; };
 		C0EDB83A14606E3E004095EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB83914606E3E004095EF /* UIKit.framework */; };
 		C0EDB83C14606E3E004095EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB83B14606E3E004095EF /* Foundation.framework */; };
 		C0EDB83E14606E3E004095EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDB83D14606E3E004095EF /* CoreGraphics.framework */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C07A78F81462109B00185F69 /* PrescriptionStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrescriptionStore.h; path = ../PrescriptionStore.h; sourceTree = "<group>"; };
+		C07A78F91462109B00185F69 /* PrescriptionStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrescriptionStore.m; path = ../PrescriptionStore.m; sourceTree = "<group>"; };
 		C0EDB83514606E3E004095EF /* MedicineChest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicineChest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EDB83914606E3E004095EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C0EDB83B14606E3E004095EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -192,6 +195,8 @@
 			isa = PBXGroup;
 			children = (
 				C0EDB8FD1461DC38004095EF /* Prescription.h */,
+				C07A78F81462109B00185F69 /* PrescriptionStore.h */,
+				C07A78F91462109B00185F69 /* PrescriptionStore.m */,
 				C0EDB8FE1461DC38004095EF /* Prescription.m */,
 			);
 			name = Models;
@@ -312,6 +317,7 @@
 				C0EDB90A1461DC38004095EF /* Prescription.m in Sources */,
 				C0EDB90F1461DCB2004095EF /* HomeViewController.m in Sources */,
 				C0EDB9101461DCB2004095EF /* PillboxViewController.m in Sources */,
+				C07A78FA1462109B00185F69 /* PrescriptionStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
