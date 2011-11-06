@@ -7,12 +7,14 @@
 //
 
 #import "PillboxViewController.h"
+#import "Prescription.h"
+#import "PrescriptionStore.h"
 
 @implementation PillboxViewController
 
 - (id)init
 {
-    self = [super init];
+    self = [super initWithStyle:UITableViewStyleGrouped];
     if (self) {
         // Get the tab bar item
         UITabBarItem *tbi = [self tabBarItem];
@@ -22,9 +24,37 @@
         [tbi setTitle:@"Pillbox"];
         // Set the image
         [tbi setImage: i];
+        
+        // Ininitalize Test Pill data
+        [[PrescriptionStore defaultStore] createPrescriptions];
+        
     }
     
     return self;
+}
+
+- (id)initWithStyle:(UITableViewStyle)style
+{
+    return [self init];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [[[PrescriptionStore defaultStore] allPrescriptions] count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // Create an instance of UITableViewCell, with default appearance
+    UITableViewCell *cell =
+        [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+                                reuseIdentifier:@"PillViewCell"] autorelease];
+    
+    Prescription *p = [[[PrescriptionStore defaultStore] allPrescriptions] objectAtIndex:[indexPath row]];
+    
+    [[cell textLabel] setText: [p pillName]];
+    
+    return cell;
 }
 
 
@@ -38,9 +68,9 @@
 {
     [super viewDidLoad];
     
-    NSLog(@"Loaded the Home View");
+    NSLog(@"Loaded the Pillbox View");
     
-    [[self view] setBackgroundColor:[UIColor orangeColor]];
+    //[[self view] setBackgroundColor:[UIColor orangeColor]];
     
     //Include further Home customizations here
 }

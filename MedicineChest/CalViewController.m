@@ -38,7 +38,7 @@
 {
     [super viewDidLoad];
     
-    NSLog(@"Loaded the Home View");
+    NSLog(@"Loaded the Calendar View");
     
     //Include further Home customizations here
 }

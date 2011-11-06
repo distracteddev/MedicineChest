@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PillboxViewController : UIViewController
+@interface PillboxViewController : UITableViewController
 
 @end

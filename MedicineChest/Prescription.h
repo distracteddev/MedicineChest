@@ -28,6 +28,7 @@
 @property (nonatomic) int maxPills;
 @property (nonatomic) int remainingPills;
 
++ (Prescription *)createPrescription:(int) i;
 
 
 @end

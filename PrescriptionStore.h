@@ -14,6 +14,8 @@
 }
 
 + (PrescriptionStore *)defaultStore;
-- (Prescription *)createPrescription;
+- (void)createPrescriptions;
 - (NSArray *)allPrescriptions;
+- (void)addPrescription:(Prescription *)theP;
+
 @end

@@ -24,7 +24,7 @@
     
     // Create the 4 view controllers, 1 for each tab
     UIViewController *vc1 = [[HomeViewController alloc] init];
-    UIViewController *vc2 = [[PillboxViewController alloc] init];
+    UITableViewController *vc2 = [[PillboxViewController alloc] init];
     UIViewController *vc3 = [[CalViewController alloc] init];
     UITableViewController *vc4 = [[InfoViewController alloc] init];
     

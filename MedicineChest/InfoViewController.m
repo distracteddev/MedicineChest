@@ -43,7 +43,7 @@
 {
     [super viewDidLoad];
     
-    NSLog(@"Loaded the Home View");
+    NSLog(@"Loaded the Info View");
     
     //Include further Home customizations here
 }

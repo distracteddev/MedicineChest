@@ -20,9 +20,14 @@ static PrescriptionStore *defaultStore = nil;
     }
     
     self = [super init];
+    if (self) {
+        allPrescriptions = [[NSMutableArray alloc] init];
+    }
     
     return self;
 }
+
+
 
 +(PrescriptionStore *)defaultStore
 {
@@ -51,13 +56,26 @@ static PrescriptionStore *defaultStore = nil;
     return NSUIntegerMax;
 }
 
-- (Prescription *)createPrescription                                                                                                                                                                                                                                                                
+- (void)createPrescriptions                                                                                                                                                                                                                                                                
 {
+    for (int i = 0; i < 10; i++)
+    {
+        //Create a test Prescription
+        Prescription *tempP = [Prescription createPrescription:i];
+        //Add it to the default store
+        [[PrescriptionStore defaultStore] addPrescription:tempP];
+        [tempP release];
+    }
     
+}
+
+- (void)addPrescription:(Prescription *)theP
+{
+    [allPrescriptions addObject:theP];
 }
 - (NSArray *)allPrescriptions 
 {
-    
+    return allPrescriptions;   
 }
 
 
